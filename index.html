@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kavita&#39;s Live CV</title>
+<meta name="description" content="Kavita – International development and social policy professional. Livelihoods, community interventions, social protection and ethical supply chains.">
+<!-- Keeps the page out of search results. Delete this line if you want Google to list it. -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23CD8A14'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' font-family='Georgia' fill='%2316362F'%3EK%3C/text%3E%3C/svg%3E">
+<style>*,*::before,*::after{box-sizing:border-box}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: storybook landing page. Illustrated hero with a lens switcher, colour-block numbers,
+   a dotted timeline with expandable reflections, and a speech-bubble "Ask" panel. */
+:root{
+  --paper:#F2F7F4; --surface:#FFFFFF; --ink:#16362F; --ink-soft:#45594F; --line:#D3E2DA;
+  --deep:#1C2D29; --blush:#AE5650; --sage:#5E7D36; --olive:#3F4A1C; --mustard:#9A6206; --aqua:#2F7468;
+  --tile-ink:#FFFFFF; --icon-ink:#FFFFFF;
+  --next-bg:#1E4D43; --next-ink:#F6F1E4; --next-soft:#CFE2DA; --next-accent:#E8B85A; --dot:#F2F7F4;
+  --quote-bg:#FBE8E4; --quote-ink:#16362F; --quote-line:#E7B9B2;
+  --hint-bg:#FBEFD2; --hint-ink:#3D2A05; --hint-line:#EBCF8E;
+  --f-display:"Young Serif", "Iowan Old Style", Georgia, serif;
+  --f-body:"Figtree", "Segoe UI", system-ui, sans-serif;
+}
+/* Light: deeper accents. Dark: original softer accents. */
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#13221E; --surface:#1B2D28; --ink:#F0EADB; --ink-soft:#B6C1B4; --line:#2F443D;
+  --deep:#0A1411; --olive:#B3BE7C; --dot:#1B2D28;
+  --blush:#C8918D; --sage:#8FA368; --mustard:#D59C2C; --aqua:#6E9B91;
+  --tile-ink:#16362F; --icon-ink:#16362F;
+  --quote-bg:#3A2624; --quote-ink:#F6E6E2; --quote-line:#6B3F3A;
+  --hint-bg:#3A311C; --hint-ink:#F6EBCF; --hint-line:#6A5524;
+  --next-bg:#EADFC4; --next-ink:#16362F; --next-soft:#3E544B; --next-accent:#8A5806;
+  color-scheme:dark }}
+:root[data-theme="dark"]{
+  --paper:#13221E; --surface:#1B2D28; --ink:#F0EADB; --ink-soft:#B6C1B4; --line:#2F443D;
+  --deep:#0A1411; --olive:#B3BE7C; --dot:#1B2D28;
+  --blush:#C8918D; --sage:#8FA368; --mustard:#D59C2C; --aqua:#6E9B91;
+  --tile-ink:#16362F; --icon-ink:#16362F;
+  --quote-bg:#3A2624; --quote-ink:#F6E6E2; --quote-line:#6B3F3A;
+  --hint-bg:#3A311C; --hint-ink:#F6EBCF; --hint-line:#6A5524;
+  --next-bg:#EADFC4; --next-ink:#16362F; --next-soft:#3E544B; --next-accent:#8A5806;
+  color-scheme:dark }
+
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;padding-inline:16px}
+.wrap{max-width:1080px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0;line-height:1.1}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--mustard);outline-offset:3px;border-radius:6px}
+.eyebrow{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--ink-soft)}
+
+/* top bar */
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:22px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:12px;font-family:var(--f-display);font-size:1.5rem}
+.mark .me{width:76px;height:76px;flex:none}
+.mark .nm span{color:var(--mustard)}
+.toplinks{display:flex;gap:20px;font-size:.88rem;flex-wrap:wrap}
+.toplinks a{text-decoration:none;color:var(--ink-soft)}
+.toplinks a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:32px;align-items:center;padding-block:24px 8px}
+.hero > *{min-width:0}
+.hero h1{font-size:clamp(2.8rem,7vw,5rem);letter-spacing:-.01em}
+.hero .lede{font-size:1.15rem;color:var(--ink-soft);max-width:40ch;margin-top:18px}
+.lenses{margin-top:28px}
+.lenses .eyebrow{margin-bottom:10px;display:block}
+.seg{display:flex;flex-wrap:wrap;gap:8px}
+.seg button{font:600 .9rem var(--f-body);border:1.5px solid var(--ink);background:transparent;color:var(--ink);padding:9px 16px;border-radius:999px;cursor:pointer;transition:background .25s,color .25s}
+.seg button:hover{background:var(--paper)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.scene{width:100%;height:auto;max-width:100%;display:block}
+.scene .lens{transition:opacity .6s ease, transform .6s ease;transform-box:fill-box}
+.scene .lens.off{opacity:0;transform:translateY(10px)}
+.f-aqua{fill:var(--aqua)} .f-blush{fill:var(--blush)} .f-sage{fill:var(--sage)} .f-olive{fill:var(--olive)}
+.f-mustard{fill:var(--mustard)} .f-deep{fill:var(--deep)} .f-surface{fill:var(--surface)} .f-ink{fill:var(--ink)}
+.s-deep{stroke:var(--deep);fill:none} .s-surface{stroke:var(--surface);fill:none} .s-aqua{stroke:var(--aqua);fill:none}
+.d-dot{fill:var(--dot)} .d-mustard{fill:var(--mustard)} .d-blush{fill:var(--blush)}
+
+
+/* ask teaser in hero */
+.teaser{background:var(--aqua);color:var(--tile-ink);padding:28px clamp(20px,3vw,32px) 30px;border-radius:28px 28px 28px 6px;display:grid;gap:12px;align-content:start}
+.teaser-top{display:flex;align-items:center;gap:10px}
+.teaser-top svg{width:34px;height:34px;color:var(--tile-ink);--teaser-bg:var(--aqua)}
+.teaser .eyebrow{color:var(--tile-ink);opacity:.85}
+.teaser h2{font-size:clamp(1.6rem,3vw,2.1rem);color:var(--tile-ink)}
+.teaser p{font-size:1rem;line-height:1.5}
+.tchips{display:flex;flex-wrap:wrap;gap:8px}
+.tchips button{font:500 .9rem var(--f-body);color:#16362F;background:#FFFFFF;border:0;border-radius:999px;padding:8px 14px;cursor:pointer;text-align:left}
+.tchips button:hover,.tchips button[aria-pressed="true"]{background:#F6E7B8}
+.tanswer{background:#FFFFFF;color:#16362F;border-radius:16px 16px 16px 4px;padding:14px 16px;font-size:.95rem;line-height:1.5;box-shadow:4px 4px 0 #16362F}
+.tanswer b{display:block;margin-bottom:4px}
+.tanswer span{white-space:pre-wrap}
+.tcta{justify-self:start;display:inline-flex;gap:8px;align-items:center;font-weight:600;text-decoration:none;background:#16362F;color:#FFFFFF;padding:11px 20px;border-radius:999px;margin-top:4px}
+.tcta:hover{background:#0B231D}
+.navnext{font-weight:700;color:var(--next-ink)!important;background:var(--next-bg);border:1.5px solid var(--next-bg);border-radius:999px;padding:2px 12px;text-decoration:none!important}
+.navnext:hover{background:var(--mustard);border-color:var(--mustard)}
+.navask{font-weight:700;color:var(--ink)!important;border:1.5px solid var(--ink);border-radius:999px;padding:2px 12px}
+/* floating ask button */
+.askfab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom, 0px));z-index:20;display:inline-flex;align-items:center;gap:8px;background:#16362F;color:#FFFFFF;text-decoration:none;font:600 .95rem var(--f-body);padding:12px 18px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.22);transition:opacity .3s,transform .3s}
+.askfab svg{width:20px;height:20px}
+.askfab.away{opacity:0;transform:translateY(12px);pointer-events:none}
+/* lens section */
+.lensbox{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;padding-block:64px 8px;margin-top:40px;border-top:1px solid var(--line)}
+.lensbox > *{min-width:0}
+.lens-intro h2{font-size:clamp(2.2rem,5vw,3.4rem);margin-top:10px}
+.lens-intro p{font-size:1.12rem;color:var(--ink-soft);max-width:48ch;margin-top:14px}
+.lens-intro .seg{margin-top:24px}
+.lens-intro .seg button{font-size:1.02rem;padding:12px 22px}
+.numbers{margin-top:20px!important}
+@media (max-width:860px){.lensbox{grid-template-columns:1fr}}
+.vh{position:absolute;left:-9999px}
+.teaser form.askform{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.teaser form.askform input{flex:1 1 220px;min-width:0;font:400 .95rem var(--f-body);padding:11px 15px;border-radius:999px;border:0;background:#FFFFFF;color:#16362F}
+.teaser form.askform button{font:600 .95rem var(--f-body);padding:11px 20px;border-radius:999px;border:0;background:#16362F;color:#FFFFFF;cursor:pointer}
+.teaser form.askform button:disabled{opacity:.6;cursor:wait}
+.teaser .livenote{font-size:.8rem;opacity:.85;margin:0}
+.tanswer.wait{font-style:italic;color:#4E625A}
+/* journey hint bubble */
+.shead p.hint{background:var(--hint-bg);color:var(--hint-ink);padding:14px 18px;border-radius:18px 18px 4px 18px;font-size:.98rem;max-width:44ch;border:1px solid var(--hint-line)}
+/* now (dropdown) */
+.nowdrop summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px clamp(18px,3vw,28px);background:var(--surface);border:1px solid var(--line);border-radius:4px 28px 4px 28px}
+.nowdrop summary::-webkit-details-marker{display:none}
+.nowdrop summary > span:first-child{display:grid;gap:4px}
+.nowtitle{font-family:var(--f-display);font-size:clamp(1.6rem,3.6vw,2.4rem);line-height:1.1}
+.nowtoggle{flex:none;width:44px;height:44px;border-radius:50%;background:var(--ink);position:relative}
+.nowtoggle::before,.nowtoggle::after{content:"";position:absolute;left:50%;top:50%;width:16px;height:2px;background:var(--paper);transform:translate(-50%,-50%);transition:transform .25s}
+.nowtoggle::after{transform:translate(-50%,-50%) rotate(90deg)}
+.nowdrop[open] .nowtoggle::after{transform:translate(-50%,-50%) rotate(0deg)}
+.nowdrop summary:hover .nowtoggle{background:var(--aqua)}
+.nowdrop[open] .nowgrid{margin-top:20px}
+/* now */
+.now{padding-block:44px 8px}
+.nowgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.nowcard{min-width:0;padding:28px clamp(18px,3vw,32px) 30px;border-radius:4px;color:var(--tile-ink);display:grid;gap:12px;align-content:start}
+.nowcard svg{width:72px;height:72px}
+.nowcard h3{font-size:1.5rem}
+.nowcard p{line-height:1.65}
+.nowcard a{color:var(--tile-ink);font-weight:600;text-underline-offset:3px}
+.n1{background:var(--aqua)} .n2{background:var(--blush)} .n3{background:var(--mustard)}
+@media (max-width:980px){.nowgrid{grid-template-columns:1fr}}
+/* summary */
+.summary{margin-top:36px;padding:28px clamp(18px,4vw,40px);background:var(--surface);border-radius:4px 28px 4px 28px;display:grid;gap:10px}
+.summary p{font-family:var(--f-display);font-size:clamp(1.05rem,2vw,1.25rem);line-height:1.55;max-width:70ch}
+/* lens statement */
+.statement{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;padding-block:40px 24px;border-bottom:1px solid var(--line)}
+.statement > *{min-width:0}
+.statement h2{font-size:clamp(1.6rem,3.4vw,2.3rem);max-width:15ch}
+.statement .rule{width:56px;height:2px;background:var(--ink);margin-top:20px}
+.statement p{max-width:62ch;color:var(--ink-soft);font-size:1.05rem}
+
+/* bring */
+.bring{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding-block:40px}
+.bring > *{min-width:0}
+.blob{width:88px;height:88px;display:grid;place-items:center;margin-bottom:16px}
+.blob svg{width:88px;height:88px;color:var(--icon-ink)}
+.bring h3{font-size:1.25rem;margin-bottom:8px}
+.bring p{color:var(--ink-soft);font-size:.97rem}
+
+/* numbers */
+.numbers{display:grid;grid-template-columns:repeat(4,1fr);align-items:stretch;border-radius:4px;overflow:hidden;margin-block:16px 56px}
+.tile{padding:28px 22px 24px;color:var(--tile-ink);min-width:0}
+.tile b{display:block;font-family:var(--f-display);font-weight:400;font-size:clamp(2rem,4vw,2.9rem);line-height:1;font-variant-numeric:tabular-nums}
+.tile span{display:block;margin-top:10px;font-size:.9rem;line-height:1.4}
+.t1{background:var(--mustard)} .t2{background:var(--blush)} .t3{background:var(--sage)} .t4{background:var(--aqua)}
+
+/* section heads */
+.shead{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:26px}
+.shead h2{font-size:clamp(2rem,4.4vw,3rem)}
+.shead p{color:var(--ink-soft);max-width:42ch;font-size:.95rem}
+
+/* timeline */
+.timeline{position:relative;list-style:none;margin:0;padding:0}
+.timeline::before{content:"";position:absolute;left:27px;top:8px;bottom:8px;border-left:2px dotted var(--line)}
+.role{position:relative;display:grid;grid-template-columns:56px 1fr;gap:22px;padding-bottom:34px;transition:opacity .4s}
+.role > *{min-width:0}
+.role .yr{width:56px;height:56px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font:600 .82rem var(--f-body);font-variant-numeric:tabular-nums;position:relative;z-index:1}
+.role.quiet{opacity:.55}
+.role.quiet:hover,.role.quiet:focus-within{opacity:1}
+.role h3{font-size:1.45rem}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:4px;font-size:.88rem;color:var(--ink-soft)}
+.meta b{font-weight:600;color:var(--ink)}
+.role ul{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:9px;max-width:70ch}
+.role li{position:relative;padding-left:20px;font-size:.97rem;color:var(--ink-soft)}
+.role li::before{content:"";position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--line)}
+.role li.hit{color:var(--ink)}
+.role li.hit::before{background:var(--mustard);box-shadow:0 0 0 3px color-mix(in srgb,var(--mustard) 25%,transparent)}
+details.learn{margin-top:16px;max-width:70ch}
+details.learn summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:.9rem;padding:7px 14px;border-radius:999px;background:var(--surface);border:1px solid var(--line)}
+details.learn summary::-webkit-details-marker{display:none}
+details.learn summary::before{content:"+";font-family:var(--f-display);font-size:1.1rem;line-height:1}
+details.learn[open] summary::before{content:"\2212"}
+details.learn .quote{white-space:pre-line;margin-top:12px;padding:18px 20px;background:var(--quote-bg);color:var(--quote-ink);border-radius:4px 18px 18px 18px;font-family:var(--f-display);font-size:1.08rem;line-height:1.5;border:1px solid var(--quote-line);border-left:4px solid #AE5650}
+
+/* ask */
+.ask{margin-block:64px;background:var(--sage);color:var(--tile-ink);border-radius:4px;padding:40px clamp(18px,4vw,48px) 44px;position:relative;overflow:hidden}
+.ask .shead p,.ask .eyebrow{color:color-mix(in srgb,var(--tile-ink) 75%,transparent)}
+.ask .shead h2{color:var(--tile-ink)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.chip{font:500 .92rem var(--f-body);color:#16362F;background:#FFFCF4;border:1.5px solid var(--tile-ink);border-radius:999px;padding:9px 16px;cursor:pointer;text-align:left}
+.chip:hover{background:#E6EFE9}
+.thread{display:grid;gap:14px;margin-bottom:22px;max-height:460px;overflow-y:auto;padding-right:4px}
+.thread:empty{display:none}
+.bub{max-width:min(620px,92%);padding:14px 18px;font-size:.98rem;white-space:pre-wrap;border:1.5px solid var(--tile-ink)}
+.bub.q{justify-self:end;background:#16362F;color:#FFFCF4;border-radius:18px 18px 4px 18px}
+.bub.a{justify-self:start;background:#FFFCF4;color:#16362F;border-radius:18px 18px 18px 4px;box-shadow:4px 4px 0 #16362F}
+.bub.a.wait{color:#4E625A;font-style:italic}
+form.askform{display:flex;gap:10px;flex-wrap:wrap}
+form.askform input{flex:1 1 260px;min-width:0;font:400 1rem var(--f-body);padding:13px 16px;border-radius:999px;border:1.5px solid var(--tile-ink);background:#FFFCF4;color:#16362F}
+form.askform button{font:600 .95rem var(--f-body);padding:13px 22px;border-radius:999px;border:0;background:#16362F;color:#FFFCF4;cursor:pointer}
+form.askform button:disabled{opacity:.6;cursor:wait}
+.livenote{margin-top:12px;font-size:.84rem;color:color-mix(in srgb,var(--tile-ink) 75%,transparent)}
+
+/* toolkit */
+.kit{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding-block:8px 56px}
+.kit > *{min-width:0}
+.kit h3{font-size:1.3rem;margin-bottom:12px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{font-size:.86rem;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
+.pill.star{background:var(--mustard);color:var(--tile-ink);border-color:transparent;font-weight:600}
+.kit p{color:var(--ink-soft);font-size:.95rem}
+
+/* close */
+.close{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding:clamp(28px,5vw,52px) clamp(20px,4vw,48px);margin-block:8px 32px;background:var(--next-bg);color:var(--next-ink);border-radius:4px 40px 4px 40px}
+.close .eyebrow{color:var(--next-accent);display:block}
+.openpill{display:inline-flex;align-items:center;gap:8px;margin:12px 0 16px;padding:6px 14px;border-radius:999px;background:var(--next-accent);color:var(--next-bg);font-weight:700;font-size:.85rem}
+.openpill i{width:8px;height:8px;border-radius:50%;background:var(--next-bg);box-shadow:0 0 0 3px color-mix(in srgb,var(--next-bg) 30%,transparent);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.35)}}
+.close > *{min-width:0}
+.close h2{font-size:clamp(2rem,4vw,2.8rem)}
+.close p{color:var(--next-soft);margin-top:12px;max-width:52ch}
+.close h2{color:var(--next-ink)}
+.foot{padding-block:22px 40px;font-size:.84rem;color:var(--ink-soft);border-top:1px dotted var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr}
+  .statement{grid-template-columns:1fr;gap:14px}
+  .bring,.kit{grid-template-columns:1fr}
+  .numbers{grid-template-columns:repeat(2,1fr)}
+  .close{grid-template-columns:1fr}
+}
+@media (max-width:480px){
+  .role{grid-template-columns:44px 1fr;gap:14px}
+  .role .yr{width:44px;height:44px;font-size:.74rem}
+  .timeline::before{left:21px}
+  .seg button{padding:8px 12px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<a class="askfab" href="#ask" id="askfab"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 8h28a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H17l-8 7v-7H6a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4Z" fill="currentColor"/></svg>Ask my CV</a>
+<div class="wrap">
+  <header class="top">
+    <div class="mark"><svg class="me" viewBox="0 0 80 80" role="img" aria-label="Illustration of Kavita: a smiling girl with curly hair and glasses">
+      <circle cx="40" cy="40" r="39" fill="var(--mustard)"/>
+      <g fill="#2B211C">
+        <circle cx="22" cy="34" r="9"/><circle cx="58" cy="34" r="9"/><circle cx="20" cy="47" r="8"/><circle cx="60" cy="47" r="8"/>
+        <circle cx="26" cy="22" r="9"/><circle cx="54" cy="22" r="9"/><circle cx="40" cy="17" r="10"/><circle cx="31" cy="15" r="7"/><circle cx="49" cy="15" r="7"/>
+        <circle cx="23" cy="57" r="6"/><circle cx="57" cy="57" r="6"/>
+      </g>
+      <path d="M14 80 Q16 62 40 62 Q64 62 66 80Z" fill="var(--aqua)" stroke="#1C2D29" stroke-width="1.6"/>
+      <rect x="35" y="52" width="10" height="11" fill="#9A6542"/>
+      <ellipse cx="40" cy="40" rx="15" ry="16" fill="#9A6542" stroke="#1C2D29" stroke-width="1.6"/>
+      <g fill="#2B211C"><circle cx="30" cy="27" r="6"/><circle cx="38" cy="25" r="6"/><circle cx="46" cy="25" r="6"/><circle cx="52" cy="29" r="5"/><circle cx="27" cy="33" r="4"/></g>
+      <g fill="none" stroke="#1C2D29" stroke-width="1.8"><circle cx="34" cy="40" r="5"/><circle cx="46" cy="40" r="5"/><path d="M39 40 h2 M29 39 l-4 -1 M51 39 l4 -1"/></g>
+      <circle cx="34" cy="40" r="1.4" fill="#1C2D29"/><circle cx="46" cy="40" r="1.4" fill="#1C2D29"/>
+      <path d="M35 48 Q40 52 45 48" fill="none" stroke="#1C2D29" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="29" cy="46" r="2.2" fill="#E98C86" opacity=".6"/><circle cx="51" cy="46" r="2.2" fill="#E98C86" opacity=".6"/>
+      <circle cx="25" cy="45" r="1.8" fill="var(--blush)" stroke="#1C2D29" stroke-width=".8"/><circle cx="55" cy="45" r="1.8" fill="var(--blush)" stroke="#1C2D29" stroke-width=".8"/>
+    </svg><span class="nm">Kavita<span>.</span></span></div>
+    <nav class="toplinks" aria-label="Sections">
+      <a href="#now">Now</a><a href="#lens">Lenses</a><a href="#journey">Journey</a><a href="#next" class="navnext">What's next</a><a href="#ask" class="navask">Ask my CV</a><a href="#toolkit">Toolkit</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <span class="eyebrow">International Development and Social Policy Professional | Currently based in New Delhi</span>
+      <h1 style="margin-top:14px">Building pathways from the margins to opportunity.</h1>
+      <p class="lede">Eight years designing programmes, shaping policy and building partnerships for inclusion in India. Looking ahead to learning from and contributing to this work across Asia.</p>
+    </div>
+    <aside class="teaser" id="ask" aria-labelledby="teaserHead">
+      <div class="teaser-top">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 8h28a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H17l-8 7v-7H6a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4Z" fill="currentColor"/><circle cx="13" cy="19" r="2.2" fill="var(--teaser-bg)"/><circle cx="20" cy="19" r="2.2" fill="var(--teaser-bg)"/><circle cx="27" cy="19" r="2.2" fill="var(--teaser-bg)"/></svg>
+        <span class="eyebrow">Interactive CV</span>
+      </div>
+      <h2 id="teaserHead">This CV answers questions.</h2>
+      <p>Tap a question for an instant answer drawn from my experience:</p>
+      <div class="tchips" id="tchips"></div>
+      <div class="tanswer" id="tanswer" aria-live="polite" hidden></div>
+      <p class="livenote">Want to ask something else? Get in touch — I'd love to hear from you.</p>
+    </aside>
+  </section>
+
+  <section class="summary">
+    <span class="eyebrow">Professional summary</span>
+    <p>A development and social policy professional with 8 years of experience working across sectors, institutions and levels of implementation at the intersection of economic inclusion, livelihoods, gender equity and social protection, including with BRAC UPGI and the World Bank. Committed to centring community-led approaches and translating grassroots realities into policy, programme strategy and implementation. Experienced in building pathways for marginalised communities to access sustainable livelihoods and mainstream markets. Interested in harnessing AI and other emerging technologies to develop more inclusive, people-centred solutions to persistent challenges facing low-income and underserved populations.</p>
+  </section>
+
+  <section class="numbers" aria-label="Key figures">
+    <div class="tile t1"><b>8 years</b><span>of experience working across grassroots interventions in remote, rural locations to national policy</span></div>
+    <div class="tile t2"><b>USD 500K+</b><span>in managing and facilitating grants and MoUs with governments and NGOs</span></div>
+    <div class="tile t3"><b>25%</b><span>increase in incomes for SHGs and rural artisans through creation of livelihoods and ethical supply chains</span></div>
+    <div class="tile t4"><b>7 states</b><span>Local and global experience: 7 Indian states, with learning and knowledge sharing across Rwanda, Indonesia and Bangladesh</span></div>
+  </section>
+
+  <section class="now" id="now">
+    <details class="nowdrop">
+      <summary>
+        <span><span class="eyebrow">Beyond the day job</span><span class="nowtitle">What I'm Up To Now</span></span>
+        <span class="nowtoggle" aria-hidden="true"></span>
+      </summary>
+      <div class="nowgrid">
+      <article class="nowcard n1">
+        <svg viewBox="0 0 88 88" aria-hidden="true"><path d="M44 6 C64 6 82 18 82 40 C82 64 66 82 44 82 C20 82 6 66 6 44 C6 22 22 6 44 6Z" fill="#FDFCF8"/><path d="M22 28 h44 a6 6 0 0 1 6 6 v18 a6 6 0 0 1 -6 6 h-26 l-10 9 v-9 h-8 a6 6 0 0 1 -6 -6 v-18 a6 6 0 0 1 6 -6Z" fill="none" stroke="#16362F" stroke-width="2.4" stroke-linejoin="round"/><text x="44" y="49" text-anchor="middle" font-size="15" fill="#16362F" font-family="sans-serif">你好</text></svg>
+        <h3>Learning Mandarin</h3>
+        <p>I am currently learning Mandarin. Immersing myself in a new language alongside work has been challenging, but it has unlocked a different set of mental muscles that I enjoy exercising. More importantly, it is an active reset for my brain, and it lets me access and understand a new world without needing a translator or subtitles!</p>
+      </article>
+      <article class="nowcard n2">
+        <svg viewBox="0 0 88 88" aria-hidden="true"><path d="M44 6 C64 6 82 18 82 40 C82 64 66 82 44 82 C20 82 6 66 6 44 C6 22 22 6 44 6Z" fill="#FDFCF8"/><path d="M18 64 C22 40 32 26 44 26 C56 26 66 40 70 64Z" fill="none" stroke="#16362F" stroke-width="2.4" stroke-linejoin="round"/><path d="M36 64 C38 52 41 46 44 46 C47 46 50 52 52 64" fill="none" stroke="#16362F" stroke-width="2.2"/><circle cx="58" cy="36" r="2.5" fill="none" stroke="#16362F" stroke-width="1.6"/><circle cx="62" cy="30" r="1.8" fill="none" stroke="#16362F" stroke-width="1.4"/><path d="M16 70 q7 -4 14 0 q7 4 14 0 q7 -4 14 0 q7 4 14 0" fill="none" stroke="#16362F" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Training for caves and oceans</h3>
+        <p>In 2026, one of my major personal milestones has been my health. I have been training specifically to build the strength to enrol for the <a href="https://oxalisadventure.com/cave/son-doong-cave/" target="_blank" rel="noopener">Son Doong Cave expedition</a> and to take on my Advanced Open Water scuba certification. This journey has taught me discipline, and the joy of working towards something patiently but consistently.</p>
+      </article>
+      <article class="nowcard n3">
+        <svg viewBox="0 0 88 88" aria-hidden="true"><path d="M44 6 C64 6 82 18 82 40 C82 64 66 82 44 82 C20 82 6 66 6 44 C6 22 22 6 44 6Z" fill="#FDFCF8"/><rect x="22" y="26" width="44" height="30" rx="5" fill="none" stroke="#16362F" stroke-width="2.4"/><path d="M36 64 h16 M44 56 v8" stroke="#16362F" stroke-width="2.4" stroke-linecap="round"/><path d="M44 31 l2.4 5.6 5.6 2.4 -5.6 2.4 -2.4 5.6 -2.4 -5.6 -5.6 -2.4 5.6 -2.4Z" fill="#16362F"/></svg>
+        <h3>Building small but powerful AI tools for learning</h3>
+        <p>I am exploring the role of AI as an active tutor, and how it can bridge small gaps in basic skills. Projects I've taken on include building a simple AI tool that helps my intern practise framing sentences in formal English, to grow their confidence in writing emails; developing and delivering an AI-fluency workshop with external experts for participants of the Naz Young People's Initiative; and using Claude to build my own Mandarin tutor.</p>
+      </article>
+    </div>
+    </details>
+  </section>
+
+  <section class="lensbox" id="lens">
+    <div class="lens-intro">
+      <span class="eyebrow">Tailor this page to you</span>
+      <h2 id="lensLabel">See my work through a lens</h2>
+      <p>Pick the area you care about most. The illustration, the highlights below and the order of points in my journey all rearrange to show my most relevant work first.</p>
+      <div class="seg" role="group" aria-labelledby="lensLabel" id="seg">
+          <button type="button" data-lens="livelihoods">Livelihoods</button>
+          <button type="button" data-lens="community">Community Interventions</button>
+          <button type="button" data-lens="protection">Social Protection</button>
+          <button type="button" data-lens="supply">Ethical Supply Chains</button>
+        </div>
+    </div>
+    <svg class="scene" viewBox="0 0 520 420" role="img" aria-label="An illustration of people connecting, which changes with each lens">
+      <defs>
+        <pattern id="pDot" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.5" class="d-dot"/></pattern>
+        <pattern id="pDotB" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" class="d-blush"/></pattern>
+        <pattern id="pHatch" width="10" height="6" patternUnits="userSpaceOnUse"><path d="M0 3 Q2.5 1 5 3 T10 3" class="s-surface" stroke-width=".8" opacity=".55"/></pattern>
+      </defs>
+      <path class="f-aqua" opacity=".5" d="M60 170 C48 112 128 82 172 112 C196 60 296 48 326 102 C366 72 466 92 462 156 C496 164 492 210 458 214 L76 214 C34 214 28 174 60 170Z"/>
+      <circle class="f-mustard" cx="440" cy="72" r="24"/>
+      <g class="s-deep" stroke-width="2.2" stroke-linecap="round">
+        <path d="M60 64 q6 -6 12 0 q6 -6 12 0"/><path d="M92 46 q5 -5 10 0 q5 -5 10 0"/>
+      </g>
+      <path class="f-blush" d="M0 262 C80 222 166 228 244 256 C322 284 420 240 520 258 L520 420 L0 420Z"/>
+      <path fill="url(#pDot)" d="M0 262 C80 222 166 228 244 256 L244 330 L0 330Z" opacity=".7"/>
+      <path class="f-deep" d="M300 300 C360 270 450 274 520 262 L520 340 L300 340Z"/>
+      <path fill="url(#pHatch)" d="M300 300 C360 270 450 274 520 262 L520 340 L300 340Z"/>
+      <path class="f-mustard" d="M0 312 C60 290 130 292 190 310 L190 350 L0 350Z"/>
+      <path fill="url(#pDot)" d="M0 312 C60 290 130 292 190 310 L190 350 L0 350Z" opacity=".55"/>
+      <path class="f-sage" d="M0 348 C100 326 200 336 282 352 C362 368 440 342 520 348 L520 420 L0 420Z"/>
+      <path fill="url(#pDot)" d="M0 348 C100 326 200 336 282 352 C362 368 440 342 520 348 L520 420 L0 420Z" opacity=".75"/>
+      <path fill="url(#pDotB)" d="M380 392 C420 378 480 380 520 386 L520 420 L360 420Z" opacity=".9"/>
+      <g id="people"></g>
+    </svg>
+  </section>
+
+  <section class="statement" aria-live="polite">
+    <div><h2 id="lensHead"></h2><div class="rule"></div></div>
+    <p id="lensIntro"></p>
+  </section>
+
+  <section class="bring" id="bring"></section>
+
+  <section id="journey">
+    <div class="shead">
+      <div><span class="eyebrow">2014 to now</span><h2>The journey</h2></div>
+      <p class="hint">Highlighted points matter most for the lens you've picked. Open "What I learned" for the part a CV leaves out.</p>
+    </div>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section class="close" id="next">
+    <div>
+      <span class="eyebrow">What's next</span>
+      <h2>Care, social protection and climate-resilient livelihoods in East Asia.</h2>
+    </div>
+    <div>
+      <p>Next stop: East Asia! I'm packing up everything I've learned about community-led design and social policy in India, and taking it to two big questions. How do societies care well for people as they age? And how can communities build livelihoods that hold up in a changing climate? Think eldercare, social protection and care structures for ageing populations on one side, and sustainability and climate-resilient livelihoods on the other.</p>
+      <p>Working on something in this space? Let's swap stories over a 20-minute virtual coffee (or chai, your pick). Bonus points if you let me practise my Mandarin. Reply to whoever shared this page with you, or write to me directly.</p>
+    </div>
+  </section>
+
+  <section class="kit" id="toolkit">
+    <div>
+      <h3>AI &amp; Data Tools</h3>
+      <div class="pills">
+        <span class="pill">Claude</span><span class="pill">NotebookLM</span><span class="pill">Perplexity</span><span class="pill">Microsoft Copilot</span>
+        <span class="pill">Looker Studio</span><span class="pill">Cognos Analytics</span><span class="pill">Flourish</span><span class="pill">Gamma</span>
+        <span class="pill">Canva</span><span class="pill">Excel</span><span class="pill">Miro</span>
+      </div>
+    </div>
+    <div>
+      <h3>Core Competencies</h3>
+      <div class="pills">
+        <span class="pill">Social Protection &amp; Economic Inclusion Policy</span><span class="pill">Evidence Synthesis</span><span class="pill">Mixed-methods Research</span><span class="pill">Monitoring and Reporting Frameworks</span><span class="pill">Programme Design &amp; Evaluation</span><span class="pill">Knowledge Product Development</span><span class="pill">Data Analysis &amp; Landscaping</span><span class="pill">Cross-cultural Stakeholder Engagement</span>
+      </div>
+    </div>
+    <div>
+      <h3>Languages</h3>
+      <div class="pills">
+        <span class="pill">English – Native</span><span class="pill">Hindi – Fluent</span><span class="pill star">Mandarin Chinese – Pursuing HSK&nbsp;2</span><span class="pill">Kannada – Basic</span><span class="pill">Malayalam – Spoken</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>How I built this: designed and written with Claude, from my own CV and notes. I chose the look, wrote the reflections and checked every fact.</span>
+    <span>Updated October 2026</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+const LENSES = {
+  livelihoods:{
+    orgs:["brac","mrida","naz"],
+    head:"Pathways out of poverty, from village SHGs to national programmes.",
+    intro:"Livelihoods and economic inclusion work across BRAC's Ultra Poor Graduation Initiative, women's Self-Help Groups and smallholder farmers at Mrida Group, and the Naz Young People's Initiative for marginalised, HIV-affected and LGBTQIA+ urban youth.",
+    bring:[
+      {icon:"sprout", c:"--sage", t:"The Graduation approach", p:"Mixed-methods poverty and livelihoods assessments across 3,300+ households in four Indian states, and a national MIS and M&E framework for a five-state productive inclusion programme."},
+      {icon:"link", c:"--mustard", t:"Grants and partnerships", p:"5 grant agreements and MoUs worth over USD 500,000, and resource mobilisation for a multi-year USD 300,000 productive inclusion programme."},
+      {icon:"map", c:"--blush", t:"Measuring agency", p:"A pioneering 'Aspiration Map' tool to capture intangible programme outcomes: agency, confidence and autonomy."}
+    ],
+    qs:["graduation","team","ai"]
+  },
+  community:{
+    orgs:["brac","mrida","naz"],
+    head:"Interventions built with communities, close to where people live.",
+    intro:"Community cadres of ASHA and Anganwadi workers at Mrida, programme strategy with civil-society partners at BRAC, and community care for ageing queer individuals and elderly persons living with chronic illnesses at Naz.",
+    bring:[
+      {icon:"hands", c:"--blush", t:"Community cadres", p:"A reproductive and menstrual health module, with ASHA and Anganwadi workers trained to deliver workshops for girls and women aged 13 to 45."},
+      {icon:"home", c:"--aqua", t:"Community care for ageing", p:"A community care programme integrating social, nutritional, preventative healthcare and Activities of Daily Living support."},
+      {icon:"link", c:"--sage", t:"Civil-society partners", p:"Programme strategy and implementation plans with PRADAN, TRIF and the Aga Khan Foundation across Karnataka, Maharashtra and Telangana."}
+    ],
+    qs:["community","eldercare","ai"]
+  },
+  protection:{
+    orgs:["wb","naz"],
+    head:"Making social protection reach the people it is meant for.",
+    intro:"At the World Bank I assess national social protection, active labour market and early childhood care and education systems, and I'm conducting a national landscaping exercise on elderly care. At Naz, the EKTA Legal Literacy programme supports marginalised communities to access their entitlements.",
+    bring:[
+      {icon:"map", c:"--aqua", t:"National systems", p:"Assessments of social protection, active labour market and ECCE systems for reach, effectiveness and delivery gaps, using forecasting to prioritise interventions."},
+      {icon:"heart", c:"--blush", t:"Elderly care", p:"A national landscaping exercise mapping policy, financing, workforce and community-based solutions for ageing populations."},
+      {icon:"link", c:"--mustard", t:"Government and partners", p:"Bringing private sector views from Uber and Urban Company to social protection and labour, and recommendations presented to the Secretary, Ministry of Social Justice and Empowerment."}
+    ],
+    qs:["protection","eldercare","asia","ai"]
+  },
+  supply:{
+    orgs:["mrida"],
+    head:"Supply chains that pay fairly and waste little.",
+    intro:"At Mrida Group I built ethical, low-waste supply chains linking women's Self-Help Groups, smallholder farmers and urban slum communities to sustainable incomes, through B2B partnerships with hospitality and corporate buyers.",
+    bring:[
+      {icon:"link", c:"--mustard", t:"B2B partnerships", p:"Buyers including Trident Hotels, Andaz by Hyatt, 91springboard and the University of Virginia."},
+      {icon:"leaf", c:"--sage", t:"Zero-waste design", p:"Zero-waste, zero-plastic handicrafts, textiles and homeware made with artisans in remote villages from locally sourced materials."},
+      {icon:"sprout", c:"--blush", t:"Incomes that grow", p:"A 25% increase in incomes for SHGs and rural artisans through livelihoods and ethical supply chains."}
+    ],
+    qs:["supply","partners","ai"]
+  }
+};
+
+const ROLES = [
+  {org:"wb", yr:"2025", title:"Consultant, Social Policy", orgName:"The World Bank Group", when:"May 2025 – Present", place:"New Delhi",
+   pts:[
+    ["P", "Evaluated one of India's largest economic inclusion schemes (PM AJAY) and presented recommendations to the Secretary, Ministry of Social Justice and Empowerment, to strengthen scheme delivery."],
+    ["P", "Mapping India's elderly care ecosystem across policy, financing, workforce and community-based models to identify gaps and opportunities to expand coverage in resource-constrained settings."],
+    ["P", "Assessing public employment service offices with the Ministry of Labour and Employment to identify operational gaps and strengthen service delivery."],
+    ["P", "Translated complex research into actionable insights using AI-powered research, knowledge management and visualisation tools (NotebookLM, Gamma, Flourish, Claude Pro, Perplexity)."],
+    ["P", "Bridged public policy and private-sector perspectives by engaging Uber and Urban Company on social protection for gig and platform workers."],
+    ["P", "Assessed national social protection, active labour market and early childhood care systems to identify coverage and delivery gaps, using forecasting to prioritise public spending on interventions."]
+   ],
+   learn:"I came to appreciate my ability to learn quickly across unfamiliar policy domains and connect the pieces within complex systems. Working across areas from early childhood care and active labour market policies to eldercare deepened my understanding of policy design, implementation bottlenecks and gaps in coverage. More importantly, it sharpened my instinct to look beyond a scheme's design on paper and ask how it interacts with the context in which it operates. I learnt that effective policy depends not only on sound design, but on understanding who it reaches, who it misses, and why."},
+  {org:"naz", yr:"2025", title:"Manager, Programme Development and Partnerships", orgName:"The Naz Foundation (India) Trust", when:"November 2025 – Present", place:"New Delhi",
+   pts:[
+    ["LC", "Leading end-to-end delivery of the Naz Young People's Initiative (NYPI) for 30 HIV-affected and LGBTQIA+ urban youth, managing a team of 4, coordinating 8 training and recruiting partners, and mobilising funding from 3 donors to address employment barriers."],
+    ["L", "Drove resource mobilisation for a multi-year USD 300,000 productive inclusion programme, developing investment-ready proposals and managing funder relationships."],
+    ["PC", "Built monitoring and reporting frameworks for two programmes (the Dutch Embassy-funded EKTA Legal Literacy programme and NYPI), translating outcome data into analytical donor reports."],
+    ["CP", "Designed integrated community-care models for ageing LGBTQIA+ people and older adults with chronic illnesses, spanning social support, nutrition, preventative healthcare and daily living assistance."]
+   ],
+   learn:"Formal inclusion does not automatically translate into social acceptance. Policies may open pathways to employment and participation, but stigma, discrimination and entrenched social norms can still prevent people from accessing opportunities on equal terms. Meaningful inclusion requires more than bringing marginalised communities into existing systems. It also requires challenging the structures and attitudes that exclude them. At its heart, inclusion means recognising every person's dignity and personhood, not simply their right to participate."},
+  {org:"brac", yr:"2023", title:"Senior Programme Analyst", orgName:"BRAC Ultra Poor Graduation Initiative", when:"November 2023 – April 2025", place:"New Delhi", sub:"Joined in 2023 as a consultant.",
+   pts:[
+    ["L", "Generated national evidence on ultra-poor households by co-leading poverty and livelihoods assessments across 3,300+ households in four states, documenting barriers to economic inclusion and social protection."],
+    ["LC", "Translated national trends into context-specific entry points for gender-inclusive, climate-resilient livelihoods, adapted to local socioeconomic and environmental conditions."],
+    ["L", "Co-designed the national MIS and M&E framework across five states for a productive inclusion programme, integrating gender, climate and health indicators aligned with Ministry of Rural Development systems."],
+    ["LC", "Co-developed an 'Aspiration Map' to measure non-financial Graduation outcomes, including agency, confidence and autonomy, beyond conventional economic indicators."],
+    ["LC", "Strengthened programme delivery and partnerships across three states through implementation planning with civil-society organisations (PRADAN, TRIF and Aga Khan Foundation) and facilitation of 5 grant agreements and MoUs worth over USD 500,000."]
+   ],
+   learn:"I learnt that pathways out of economic distress require more than access to capital. They require sustained investment in people's agency and autonomy. Within the Graduation approach, coaching stood out as a critical source of continuity and encouragement, helping participants persist through skill development and microenterprise creation. I saw how consistent guidance, practical support and someone who believes in your potential can help turn aspiration into action. Economic empowerment is not simply about providing resources; it is about enabling people to use them to shape their own futures."},
+  {org:"oxford", yr:"2021", title:"MPhil in Development Studies", orgName:"University of Oxford", when:"2021 – 2023", place:"Oxford, United Kingdom",
+   pts:[
+    ["","Thesis: Exploring the subjective experience of travel for remote, rural poor communities in Uttar Pradesh."],
+    ["","Project Manager, Oxford Development Consultancy (2022): led a team working with Tawina, a Malawian NGO, to build a pipeline of funders and to assess its long-term vision and roadmap for scaling livelihood and agriculture initiatives focused on women's empowerment."],
+    ["","Academic Representative, Oxford Department of International Development (2021 – 2023): worked alongside faculty and administration to address academic concerns, feedback and issues for the Development Studies cohort, and organised an 'Industry Expert Series' with leaders in the development field to bridge the gap between academia and industry."]
+   ],
+   learn:"Having the chance to meet like-minded young development practitioners allowed me to reckon with the complexity of local realities as products of wider, interconnected systems. The aspiration for a dignified life transcends geography and sociocultural identity, but the conditions that enable it are shaped by forces far beyond the individual or community. Grassroots perspectives are essential, but lasting change also requires confronting the structural and systemic barriers that shape people's choices, opportunities and living conditions."},
+  {org:"mrida", yr:"2018", title:"Lead – Partnerships and Women's Empowerment / EA to MD", orgName:"Mrida Group", when:"August 2018 – July 2021", place:"New Delhi", sub:"Joined in 2018 as a management trainee.",
+   pts:[
+    ["SL", "Built ethical, low-waste B2B supply chains that increased average monthly incomes by 25%, connecting women's Self-Help Groups, smallholder farmers and urban slum communities with corporate buyers including Trident Hotels, Andaz by Hyatt, 91springboard and University of Virginia."],
+    ["SL", "Co-designed zero-waste, zero-plastic handicrafts, textiles and homeware with rural artisans, leveraging traditional skills and using locally sourced materials."],
+    ["C", "Developed a reproductive and menstrual health module and trained ASHA and Anganwadi workers across three states, supporting workshops that enabled over 500 girls and women to access free, reusable menstrual hygiene products."],
+    ["S", "Built strategic partnerships with Columbia Business School, INSEAD and Ashoka University, and managed donor and CSR partner relationships including PeeSafe, INOX Air Products and Rio Tinto."],
+    ["", "Co-developed business strategy, performance reviews and operational streamlining with the Managing Director."]
+   ],
+   learn:"I witnessed firsthand the value of traditional and non-English knowledge systems. In the formal work industry, English sometimes becomes a proxy for credibility, obscuring the expertise held within communities and passed down through generations. Some of our most successful interventions drew on precisely this knowledge (who knew that dried gourds discarded by farmers were used as traditional loofahs and dish scrubs?)\n\nI also discovered the extent of my commitment when it comes to work I believe in and love doing: I enrolled in a government-certified soap-making course so I could train women across Self-Help Groups to establish production units in their own villages."},
+  {org:"ashoka", yr:"2014", title:"B.A. (Hons.) in Sociology and Anthropology", orgName:"Ashoka University", when:"2014 – 2018", place:"Delhi NCR, India",
+   pts:[
+    ["","Albright Fellow, Wellesley College (2016 Wintersession): one of three Indian students selected as Fellows, working and learning alongside leaders of organisations such as the National Science Foundation (USA) and the International Rescue Committee on how the SDGs can be achieved globally."],
+    ["","Academic Advisory Board, Ashoka University (2014 – 2017): served as the point of contact between students and the Sociology & Anthropology Department, strengthened student–department relations, helped design department activities, and provided academic and administrative support to faculty."],
+    ["","Founding member of the 'Sexuality and...' series, which busted myths about sex to promote safe sex and learning about reproductive health; co-founded the Peer Mentor System, which matched first-year students with final-year buddies."]
+   ],
+   learn:"I learnt that meaningful change often begins with noticing a small, unmet need and bringing people together to address it. My extracurricular initiatives were where I explored the power of collaborative creation. Ideas become more meaningful, and solutions more enduring, when a community has a hand in shaping them."}
+];
+
+const Q = {
+  graduation:{q:"What did she learn from the Graduation approach?", a:"At BRAC's Ultra Poor Graduation Initiative, Kavita co-led assessments across 3,300+ households in four Indian states and co-designed the MIS and M&E framework for a five-state productive inclusion programme. Her main lesson: coaching kept participants committed to their skill-development and microentrepreneurship. Economic empowerment is a product of guidance and support, not loans and microcredit alone. She also co-designed an 'Aspiration Map' to capture agency, confidence and autonomy."},
+  team:{q:"Has she led teams and managed funders?", a:"Yes. At Naz she leads the Naz Young People's Initiative end to end for 30 young people, managing a team of 4, coordinating 8 training and recruiting partners and mobilising funding from 3 donors, and she drove resource mobilisation for a multi-year USD 300,000 programme, managing funder relationships. At BRAC she facilitated 5 grant agreements and MoUs worth over USD 500,000 with state governments and implementing partners."},
+  community:{q:"What community programmes has she designed?", a:"At Mrida, Kavita developed a reproductive and menstrual health module and trained ASHA and Anganwadi workers as community cadres for girls and women aged 13–45. At BRAC she built programme strategy with PRADAN, TRIF and the Aga Khan Foundation. At Naz she leads the Naz Young People's Initiative and is designing a community care programme for ageing queer individuals and elderly persons living with chronic illnesses."},
+  eldercare:{q:"What has she done on ageing and eldercare?", a:"Kavita is conducting a national landscaping exercise on elderly care in India for the World Bank, mapping policy, financing, workforce and community-based solutions. At Naz she is designing a community care programme for ageing queer individuals and elderly persons with chronic illnesses, integrating social, nutritional, preventative healthcare and daily-living support. At Mrida, sourcing hand-ground spices created an income for elderly women in villages."},
+  protection:{q:"What is her social protection experience?", a:"At the World Bank, Kavita assesses national social protection, active labour market and early childhood care and education systems, ran a mixed-methods evaluation of PM AJAY across three states and presented recommendations to the Secretary, Ministry of Social Justice and Empowerment, and is working with the Ministry of Labour and Employment to assess public employment services. At Naz she designed the monitoring framework for the EKTA Legal Literacy programme."},
+  asia:{q:"Why Asia, and why Mandarin?", a:"Kavita wants to bring her expertise in community-led intervention design and social policy to eldercare, social protection and climate-resilient livelihoods in East Asia, where several societies have already built the care systems India will need. She is learning Mandarin and is working towards HSK 2 (HSK 4 is considered professional fluency), so she can work closely with partners in the region."},
+  supply:{q:"What does her supply chain work look like?", a:"At Mrida Group, Kavita built ethical, low-waste supply chains linking women's Self-Help Groups, smallholder farmers and urban slum communities to buyers like Trident Hotels and Andaz by Hyatt. She designed zero-waste, zero-plastic handicrafts, textiles and homeware with village artisans: loofahs from dried gourds, patchwork textiles from mill waste fabric, and hand-ground spices. These supply chains increased average monthly incomes by 25%."},
+  partners:{q:"Who has she partnered with?", a:"Buyers and partners at Mrida include Trident Hotels, Andaz by Hyatt, 91springboard and the University of Virginia, plus Columbia Business School, INSEAD and Ashoka University, and CSR partners PeeSafe and INOX Air Products. At the World Bank she brings Uber and Urban Company into social protection and labour discussions; at BRAC with PRADAN, TRIF and the Aga Khan Foundation."},
+  ai:{q:"How was this page made?", a:"Kavita built it with Claude, from her own CV and notes. She chose the design references, wrote the reflections and checked every fact. At the World Bank she uses NotebookLM, Perplexity, Gamma and Flourish for literature synthesis, knowledge management and analytical drafting. Her toolkit also includes Microsoft Copilot, Looker Studio, Cognos Analytics, Canva and Miro."}
+};
+
+const ICONS = {
+  home:'<path d="M28 46 L44 32 L60 46 L60 62 L28 62Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><rect x="40" y="50" width="8" height="12" fill="currentColor"/>',
+  heart:'<path d="M44 62 C30 52 26 44 30 38 C34 32 42 33 44 39 C46 33 54 32 58 38 C62 44 58 52 44 62Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>',
+  hands:'<circle cx="36" cy="40" r="6" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="52" cy="40" r="6" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M26 62 C26 52 46 52 46 62 M42 62 C42 52 62 52 62 62" fill="none" stroke="currentColor" stroke-width="2.4"/>',
+  sprout:'<path d="M44 62 L44 40" stroke="currentColor" stroke-width="2.4"/><path d="M44 46 C34 46 30 38 30 32 C38 32 44 36 44 46Z M44 42 C52 42 58 36 58 28 C50 28 44 32 44 42Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>',
+  link:'<rect x="26" y="38" width="22" height="12" rx="6" fill="none" stroke="currentColor" stroke-width="2.4"/><rect x="40" y="38" width="22" height="12" rx="6" fill="none" stroke="currentColor" stroke-width="2.4"/>',
+  map:'<path d="M28 34 L38 30 L50 34 L60 30 L60 56 L50 60 L38 56 L28 60Z M38 30 L38 56 M50 34 L50 60" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>',
+  leaf:'<path d="M30 60 C30 40 42 30 60 28 C60 46 50 58 30 60Z M30 60 L50 38" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>'
+};
+const BLOB = "M44 6 C64 6 82 18 82 40 C82 64 66 82 44 82 C20 82 6 66 6 44 C6 22 22 6 44 6Z";
+
+/* ---------- People illustrations ---------- */
+const INK = "#1C2D29", SKIN = ["#8A5A3C","#C68B5E","#E2B08A","#6B4329","#B47A50"], HAIR = "#2B211C", GREY = "#E3DED3";
+function person(o){
+  const s = o.s || 1.3, t = o.tilt || 0, sk = o.skin, hc = o.hairC || HAIR;
+  let body = "", arms = "";
+  // legs
+  if(o.kind === "dress"){
+    body += `<path d="M-6 -40 L-8 -2 M6 -40 L8 -2" stroke="${INK}" stroke-width="3.2" stroke-linecap="round"/>`;
+  } else {
+    body += `<path d="M-6 -42 L-8 -6 M6 -42 L8 -6" stroke="var(${o.bottom||"--deep"})" stroke-width="9" stroke-linecap="round"/>`;
+  }
+  body += `<ellipse cx="-10" cy="-1" rx="6" ry="3" fill="${INK}"/><ellipse cx="10" cy="-1" rx="6" ry="3" fill="${INK}"/>`;
+  // torso
+  if(o.kind === "dress") body += `<path d="M-11 -82 Q0 -86 11 -82 L21 -32 Q0 -27 -21 -32Z" style="fill:var(${o.top})" stroke="${INK}" stroke-width="2"/>`;
+  else body += `<rect x="-14" y="-84" width="28" height="46" rx="10" style="fill:var(${o.top})" stroke="${INK}" stroke-width="2"/>`;
+  if(o.apron) body += `<path d="M-9 -66 L9 -66 L10 -40 L-10 -40Z" style="fill:var(--surface)" stroke="${INK}" stroke-width="1.6"/>`;
+  if(o.badge) body += `<rect x="3" y="-74" width="8" height="8" rx="1.5" fill="#FFFCF4" stroke="${INK}" stroke-width="1.2"/><path d="M7 -72.5 V-67.5 M4.5 -70 H9.5" stroke="#C44" stroke-width="1.6"/>`;
+  if(o.lanyard) body += `<path d="M-6 -83 L0 -66 L6 -83" fill="none" stroke="var(--mustard)" stroke-width="1.8"/><rect x="-4" y="-67" width="8" height="10" rx="1.5" fill="#FFFCF4" stroke="${INK}" stroke-width="1.2"/>`;
+  if(o.scarf) body += `<path d="M-12 -82 Q0 -74 12 -82 L13 -76 Q0 -68 -13 -76Z" style="fill:var(${o.scarf})" stroke="${INK}" stroke-width="1.4"/>`;
+  // long hair behind
+  if(o.hair === "long") body += `<path d="M-16 -98 Q-18 -118 0 -118 Q18 -118 16 -98 L17 -78 Q0 -74 -17 -78Z" fill="${hc}"/>`;
+  // head
+  body += `<g transform="translate(${t} 0)">`;
+  body += `<circle cx="0" cy="-98" r="14" fill="${sk}" stroke="${INK}" stroke-width="2"/>`;
+  if(o.hair === "short" || o.hair === "long" || o.hair === "bun") body += `<path d="M-14.5 -100 Q-15 -116 0 -116.5 Q15 -116 14.5 -100 Q10 -109 0 -108 Q-8 -108 -14.5 -100Z" fill="${hc}"/>`;
+  if(o.hair === "bun") body += `<circle cx="0" cy="-117" r="6.5" fill="${hc}"/>`;
+  if(o.hair === "side") body += `<path d="M-14.5 -102 Q-14 -114 -2 -115 Q12 -116 14 -104 Q6 -110 -14.5 -102Z" fill="${hc}"/><path d="M-14.5 -102 Q-17 -96 -14 -92" stroke="${hc}" stroke-width="3" fill="none"/><path d="M14 -104 Q17 -97 14 -92" stroke="${hc}" stroke-width="3" fill="none"/>`;
+  if(o.hat) body += `<ellipse cx="0" cy="-109" rx="24" ry="4.5" style="fill:var(--mustard)" stroke="${INK}" stroke-width="1.6"/><path d="M-11 -110 Q-10 -124 0 -124 Q10 -124 11 -110Z" style="fill:var(--mustard)" stroke="${INK}" stroke-width="1.6"/>`;
+  body += `<circle cx="-5" cy="-99" r="1.7" fill="${INK}"/><circle cx="5" cy="-99" r="1.7" fill="${INK}"/>`;
+  if(o.glasses) body += `<circle cx="-5" cy="-99" r="4.3" fill="none" stroke="${INK}" stroke-width="1.3"/><circle cx="5" cy="-99" r="4.3" fill="none" stroke="${INK}" stroke-width="1.3"/><path d="M-0.7 -99 H0.7" stroke="${INK}" stroke-width="1.3"/>`;
+  body += `<circle cx="-8.5" cy="-93" r="2.6" fill="#E98C86" opacity=".55"/><circle cx="8.5" cy="-93" r="2.6" fill="#E98C86" opacity=".55"/>`;
+  body += `<path d="M-5 -92.5 Q0 -87 5 -92.5" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round"/>`;
+  if(o.wrinkle) body += `<path d="M-11 -104 q2 -1.5 4 0 M7 -104 q2 -1.5 4 0" fill="none" stroke="${INK}" stroke-width="1" opacity=".6"/>`;
+  body += `</g>`;
+  // arms
+  const arm = (sx, h) => `<path d="M${sx} -78 Q${(sx+h[0])/2 + (h[2]||0)} ${(-78+h[1])/2 + 6} ${h[0]} ${h[1]}" fill="none" stroke="var(${o.sleeve||o.top})" stroke-width="7" stroke-linecap="round"/><path d="M${sx} -78 Q${(sx+h[0])/2 + (h[2]||0)} ${(-78+h[1])/2 + 6} ${h[0]} ${h[1]}" fill="none" stroke="${INK}" stroke-width="1.4" stroke-linecap="round" opacity=".55"/><circle cx="${h[0]}" cy="${h[1]}" r="4" fill="${sk}" stroke="${INK}" stroke-width="1.5"/>`;
+  if(o.cane) arms += `<path d="M${o.l[0]} ${o.l[1]} L${o.l[0]-3} 0 M${o.l[0]} ${o.l[1]} q-1 -7 -7 -6" fill="none" stroke="var(--olive)" stroke-width="3" stroke-linecap="round"/>`;
+  arms += arm(-12, o.l) + arm(12, o.r);
+  const g = inner => `<g transform="translate(${o.x} ${o.y}) scale(${s})">${inner}</g>`;
+  return {body:g(body), arms:g(arms)};
+}
+function compose(list, under, over){
+  const ps = list.map(person);
+  return (under||"") + ps.map(p=>p.body).join("") + ps.map(p=>p.arms).join("") + (over||"");
+}
+const Y = 372, S = 1.3;
+const heart = (x,y,c,sc) => `<path transform="translate(${x} ${y}) scale(${sc||1})" d="M0 10 C-14 0 -16 -8 -11 -13 C-6 -18 0 -14 0 -8 C0 -14 6 -18 11 -13 C16 -8 14 0 0 10Z" style="fill:var(${c||"--blush"})" stroke="${INK}" stroke-width="1.6"/>`;
+const sparkle = (x,y) => `<path transform="translate(${x} ${y})" d="M0 -7 V7 M-7 0 H7" stroke="${INK}" stroke-width="2" stroke-linecap="round"/>`;
+const dotsArc = (x1,x2,y,h) => `<path d="M${x1} ${y} Q${(x1+x2)/2} ${y-h} ${x2} ${y}" fill="none" stroke="${INK}" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round"/>`;
+const SCENES = {
+  // Livelihoods: a mix of professionals holding hands
+  livelihoods: () => {
+    const xs=[110,200,290,380], d=(90/S)/2;
+    return compose([
+      {x:xs[0],y:Y,s:S,kind:"shirt",top:"--olive",bottom:"--deep",skin:SKIN[0],hat:true,l:[-22,-112],r:[d,-60]},
+      {x:xs[1],y:Y,s:S,kind:"dress",top:"--aqua",skin:SKIN[1],hair:"bun",badge:true,l:[-d,-60],r:[d,-60]},
+      {x:xs[2],y:Y,s:S,kind:"shirt",top:"--surface",bottom:"--deep",skin:SKIN[2],hair:"short",glasses:true,lanyard:true,l:[-d,-60],r:[d,-60]},
+      {x:xs[3],y:Y,s:S,kind:"dress",top:"--mustard",skin:SKIN[3],hair:"long",apron:true,l:[-d,-60],r:[24,-112]}
+    ], dotsArc(110,380,206,40), sparkle(84,214)+sparkle(410,214));
+  },
+  // Community interventions: elderly people together
+  community: () => {
+    const xs=[160,255,350], d=(95/S)/2;
+    return compose([
+      {x:xs[0],y:Y,s:S,kind:"dress",top:"--blush",skin:SKIN[4],hair:"bun",hairC:GREY,wrinkle:true,scarf:"--sage",cane:true,l:[-22,-46],r:[d,-58]},
+      {x:xs[1],y:Y,s:S,kind:"shirt",top:"--aqua",bottom:"--olive",skin:SKIN[0],hair:"side",hairC:GREY,glasses:true,wrinkle:true,tilt:1,l:[-d,-58],r:[d,-58]},
+      {x:xs[2],y:Y,s:S,kind:"dress",top:"--mustard",skin:SKIN[2],hair:"long",hairC:GREY,wrinkle:true,glasses:true,l:[-d,-58],r:[22,-48]}
+    ], "", heart(206,196,"--blush",.9)+heart(302,190,"--mustard",.8));
+  },
+  // Social protection: two people hugging
+  protection: () => {
+    const a=236, b=284, gap=(b-a)/S;
+    return compose([
+      {x:a,y:Y,s:S,kind:"dress",top:"--blush",skin:SKIN[1],hair:"long",tilt:5,l:[-20,-46],r:[gap+12,-80,-4]},
+      {x:b,y:Y,s:S,kind:"shirt",top:"--aqua",bottom:"--olive",skin:SKIN[3],hair:"short",tilt:-5,l:[-gap-10,-56,4],r:[20,-46]}
+    ], "", heart(260,170,"--blush",1.3)+sparkle(204,192)+sparkle(318,186));
+  },
+  // Ethical supply chains: two people exchanging a box of goods
+  supply: () => {
+    const a=176, b=344, cx=(a+b)/2, reach=(cx-a)/S-16;
+    const box = `<g transform="translate(${cx} ${Y-84})"><rect x="-26" y="-20" width="52" height="38" rx="3" style="fill:var(--mustard)" stroke="${INK}" stroke-width="2"/><path d="M-26 -8 H26 M0 -20 V-8" stroke="${INK}" stroke-width="1.6"/></g>`;
+    const ps = [
+      {x:a,y:Y,s:S,kind:"dress",top:"--sage",skin:SKIN[0],hair:"bun",scarf:"--blush",tilt:2,l:[-20,-46],r:[reach,-62]},
+      {x:b,y:Y,s:S,kind:"shirt",top:"--blush",bottom:"--deep",skin:SKIN[2],hair:"side",tilt:-2,l:[-reach,-62],r:[20,-46]}
+    ].map(person);
+    return ps.map(p=>p.body).join("") + box + ps.map(p=>p.arms).join("") + dotsArc(176,344,196,30) + sparkle(260,150);
+  }
+};
+const people = document.getElementById("people");
+function drawScene(l){
+  people.innerHTML = Object.keys(SCENES).map(k=>`<g class="lens${k===l?"":" off"}" data-scene="${k}">${SCENES[k]()}</g>`).join("");
+}
+
+/* ---------- Page ---------- */
+const $ = s => document.querySelector(s);
+const tl = $("#timeline"), bring = $("#bring");
+const code = {livelihoods:"L", community:"C", protection:"P", supply:"S"};
+let lens = "livelihoods";
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+
+function renderTimeline(){
+  const L = LENSES[lens], k = code[lens];
+  tl.innerHTML = ROLES.map(r=>{
+    const inLens = L.orgs.includes(r.org);
+    const hit = p => inLens && p[0].includes(k);
+    const pts = r.pts.slice().sort((x,y)=>hit(y)-hit(x));
+    return `<li class="role${inLens?"":" quiet"}"><div class="yr">${r.yr}</div><div>
+      <h3>${esc(r.title)}</h3>
+      <div class="meta"><b>${esc(r.orgName)}</b><span>${r.when}</span><span>${esc(r.place)}</span></div>
+      ${r.sub?`<div class="meta"><span>${esc(r.sub)}</span></div>`:""}
+      <ul>${pts.map(p=>`<li class="${hit(p)?"hit":""}">${esc(p[1])}</li>`).join("")}</ul>
+      ${r.learn?`<details class="learn"><summary>What I learned</summary><div class="quote">${esc(r.learn)}</div></details>`:""}
+    </div></li>`;
+  }).join("");
+}
+function renderLens(){
+  const L = LENSES[lens];
+  $("#lensHead").textContent = L.head;
+  $("#lensIntro").textContent = L.intro;
+  bring.innerHTML = L.bring.map(b=>`<div><div class="blob"><svg viewBox="0 0 88 88" aria-hidden="true"><path d="${BLOB}" fill="var(${b.c})"/>${ICONS[b.icon]}</svg></div><h3>${esc(b.t)}</h3><p>${esc(b.p)}</p></div>`).join("");
+  document.querySelectorAll("#seg button").forEach(b=>b.setAttribute("aria-pressed", b.dataset.lens===lens));
+  document.querySelectorAll("#people .lens").forEach(g=>g.classList.toggle("off", g.dataset.scene!==lens));
+  renderTimeline();
+}
+function setLens(l){
+  if(!LENSES[l]) return; lens = l; renderLens();
+  try{ history.replaceState(null,"","#"+l); }catch(e){}
+}
+document.querySelectorAll("#seg button").forEach(b=>b.addEventListener("click",()=>setLens(b.dataset.lens)));
+const h = (location.hash||"").slice(1);
+if(LENSES[h]) lens = h;
+drawScene(lens);
+renderLens();
+
+
+/* ---------- Ask teaser (hero) ---------- */
+const tchips = document.getElementById("tchips"), tanswer = document.getElementById("tanswer");
+["eldercare","team","protection","graduation","supply","asia","ai"].forEach(id=>{
+  const b = document.createElement("button"); b.type="button"; b.textContent = Q[id].q; b.setAttribute("aria-pressed","false");
+  b.addEventListener("click", ()=>{
+    tchips.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b));
+    showAnswer(Q[id].q, Q[id].a);
+  });
+  tchips.appendChild(b);
+});
+const fab = document.getElementById("askfab"), heroTeaser = document.querySelector(".teaser");
+if("IntersectionObserver" in window){
+  const io = new IntersectionObserver(es=>{ es.forEach(e=>fab.classList.toggle("away", e.isIntersecting)); });
+  io.observe(heroTeaser);
+}
+function showAnswer(q, a, wait){
+  tanswer.hidden = false; tanswer.innerHTML = ""; tanswer.classList.toggle("wait", !!wait);
+  const qb = document.createElement("b"); qb.textContent = q; const at = document.createElement("span"); at.textContent = a;
+  tanswer.append(qb, at); return at;
+}
+
+/* ---------- Ask ---------- */
+})();
+</script>
+</body>
+</html>
