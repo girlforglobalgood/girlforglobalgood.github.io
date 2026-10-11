@@ -1,0 +1,71 @@
+# robots.txt for girlforglobalgood.github.io
+# Asks AI-training and bulk-scraping crawlers not to collect this site.
+# People can still visit normally. Search engines may still visit, but the
+# page itself asks them not to list it (noindex).
+
+# OpenAI (training and search)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Google AI training (does not affect Google Search)
+User-agent: Google-Extended
+Disallow: /
+
+# Apple AI training (does not affect Apple search features)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Common Crawl (public archive widely used to train AI models)
+User-agent: CCBot
+Disallow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+# ByteDance
+User-agent: Bytespider
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+# Other bulk-data and SEO crawlers
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Everyone else (including regular search engines, which need to read the
+# page to see its "noindex" instruction) may visit.
+User-agent: *
+Allow: /
